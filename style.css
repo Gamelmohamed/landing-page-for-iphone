@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.contaner{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 010px;
+}
+
+.logo, a, .logo-img{
+    width: 40px;
+}
+
+.nav-bar, ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+ul, li{
+    display: inline-block;
+    
+}
+
+li, a{
+    text-decoration: none;
+    padding: 5px;
+    color: #fff;
+}
+
+.content{
+color: #fff;
+display: flex;
+justify-content: space-between;
+width: 80%;
+margin: auto;
+}
+
+.text{
+width: 40%;
+margin: 20px 10px;
+}
+
+h2{
+    margin: 10px 0 ;
+    font-size: 30px;
+}
+
+p{
+    margin: 5px 0 30px;
+    font-size: 18px;
+}
+
+.btn{
+    background-color: #fff;
+    color: black;
+    padding: 5px;
+   
+    border-radius: 20px;
+}
+.iphone {
+    width: 30%;
+
+}
+.iphone-img{
+    width: 100%;
+}
+
+.thems{
+    
+    display: flex;
+    margin: auto;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%)
+    
+
+}
+
+.thems img{
+width: 40px;
+transition: .5s;
+cursor: pointer;
+}
+
+.thems img:hover{
+
+    transform: scale(1.2);
+}
+
