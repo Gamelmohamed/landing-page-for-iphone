@@ -7,7 +7,34 @@
     <title>Landing Page</title>
   </head>
   <body>
-    <div class="contaner">
+    <div class="page1 contaner" id="page1">
+      <div class="header">
+        <div class="logo">
+          <a href="#">
+            <img src="./images/logo.png" alt="logo" class="logo-img"/>
+          </a>
+        </div>
+
+        <div class="nav-bar">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="imges">
+        <img onclick="goToPage2()" src="./images/0.png" alt="">
+        <img src="./images/labtop apple.jpeg" alt="">
+      </div>
+    </div>
+
+
+
+    <div class="contaner" id="page2">
       <div class="header">
         <div class="logo">
           <a href="#">
@@ -46,7 +73,7 @@
           <h3>Gold</h3>
         </div>
       
-    </div>
+     </div>
       </div>
       <div class="thems">
         <img onclick="phones(this.src); backgroundColor('#000') ; changeColor(name)"  src="./images/0.png" name = Gold>
@@ -56,6 +83,7 @@
         <img onclick="phones(this.src); backgroundColor('#c82525') ; changeColor(name)" src="./images/4.png" name = "Red">
       </div>
     </div>
+    
 
     <script src="./main.js"></script>
   </body>
