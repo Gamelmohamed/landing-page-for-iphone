@@ -17,11 +17,13 @@
     justify-content: space-between;
     width: 80%;
     margin: auto;
-    padding: 010px;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
 }
 
 .logo, a, .logo-img{
     width: 40px;
+    
 }
 
 .nav-bar, ul{
@@ -47,6 +49,7 @@ display: flex;
 justify-content: space-between;
 width: 80%;
 margin: auto;
+
 }
 
 .text{
@@ -72,11 +75,20 @@ p{
     border-radius: 20px;
 }
 .iphone {
-    width: 30%;
+    display: flex;
+    justify-content: center;
 
 }
 .iphone-img{
-    width: 100%;
+    width: 80%;
+    height: 90%;
+}
+
+.poster{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
 }
 
 .thems{
@@ -84,7 +96,7 @@ p{
     display: flex;
     margin: auto;
     position: absolute;
-    bottom: 10px;
+    bottom: 50px;
     left: 50%;
     transform: translateX(-50%)
     
@@ -102,3 +114,11 @@ cursor: pointer;
     transform: scale(1.2);
 }
 
+.color-name{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 40px;
+}
